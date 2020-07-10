@@ -1,0 +1,471 @@
+/* XL Device :1200px. */
+@media (min-width: 1800px) {
+
+  .feature-img {
+    padding-right: 20%;
+  }
+
+  .feature-details {
+    padding: 45px 40px 45px 60px;
+  }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home-banner h1 {
+    font-size: 60px;
+  }
+
+  .feature {
+    padding-top: 100px;
+  }
+
+  .feature-details {
+    max-width: 450px;
+    padding: 20px 0 20px 40px;
+  }
+
+  .feature-details h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .feature-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .feature-btn {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+
+  .dialogue p br {
+    display: none;
+  }
+
+  .dialogue {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .ap-body h3 {
+    font-size: 30px;
+  }
+
+  .ap-btn {
+    font-size: 18px;
+    padding: 11px 25px;
+  }
+
+  .ap-body p {
+    margin-bottom: 25px;
+  }
+
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .header-top {
+    align-items: flex-start;
+  }
+
+  .navbar {
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .header-top.active .navbar {
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-left: auto;
+  }
+
+  .navbar-nav {
+    padding-top: 20px;
+  }
+
+  .logo {
+    flex-basis: calc((100/12)*4%);
+    transition: 0.3s;
+  }
+
+  .header-top.active .logo {
+    padding-top: 8px;
+    padding-left: 30px;
+  }
+
+  .company-name {
+    flex-basis: calc((100/12)*4%);
+  }
+
+  .main-nav {
+    flex-basis: calc((100/12) * 4%);
+    margin-left: auto;
+  }
+
+  .header-top.active .main-nav {
+    flex-basis: calc((100/12) * 8%);
+    padding-right: 30px;
+  }
+
+  .home-banner {
+    height: 600px;
+  }
+
+  .home-banner h1 {
+    font-size: 55px;
+    line-height: 75px;
+    padding-left: 40px;
+  }
+
+  .feature {
+    padding-top: 100px;
+  }
+
+  .feature-img {
+    padding-right: 150px;
+  }
+
+  .feature-details {
+    max-width: 350px;
+    padding: 20px;
+  }
+
+  .feature-details h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .feature-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .feature-details p span {
+    display: none;
+  }
+
+  .feature-btn {
+    font-size: 18px;
+    padding: 6px 13px;
+  }
+
+  .dialogue p br {
+    display: none;
+  }
+
+  .dialogue {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  #portfolio {
+    padding-right: 35px;
+  }
+
+  #about {
+    padding-left: 35px;
+  }
+
+  .ap-body h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .ap-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .ap-body p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .as-seen h3 {
+    font-size: 28px;
+  }
+
+  #architect {
+    padding-right: 35px;
+  }
+
+  #decor {
+    padding-left: 35px;
+  }
+
+  .footer-one img {
+    max-width: 100%;
+  }
+
+  .footer-two:before,
+  .footer-three:before {
+    width: 120px;
+  }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-top {
+    align-items: flex-start;
+  }
+
+  .navbar {
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .header-top.active .navbar {
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-left: auto;
+  }
+
+  .navbar-nav {
+    padding-top: 20px;
+  }
+
+  .logo {
+    flex-basis: calc((100/12)*4%);
+    transition: 0.3s;
+  }
+
+  .header-top.active .logo {
+    padding-top: 8px;
+    padding-left: 15px;
+    flex-basis: calc((100/12)*5%);
+  }
+
+  .main-nav {
+    flex-basis: calc((100/12) * 8%);
+    margin-left: auto;
+  }
+
+  .header-top.active .main-nav {
+    flex-basis: calc((100/12) * 7%);
+    padding-right: 15px;
+  }
+
+  .home-banner {
+    height: 400px;
+  }
+
+  .home-banner h1 {
+    font-size: 24px;
+    line-height: 34px;
+    padding-left: 10px;
+  }
+
+  .feature {
+    padding-top: 100px;
+  }
+
+  .feature-img {
+    padding-right: 0;
+  }
+
+  .feature-details {
+    position: relative;
+    max-width: 100%;
+    padding: 20px;
+    top: 100%;
+    right: 0;
+    transform: none;
+  }
+
+  .feature-details h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .feature-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .feature-details p span {
+    display: none;
+  }
+
+  .feature-btn {
+    font-size: 18px;
+    padding: 6px 13px;
+  }
+
+  .dialogue p br {
+    display: none;
+  }
+
+  .dialogue {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  .ap {
+    padding-bottom: 60px;
+  }
+
+  #portfolio {
+    padding-right: 0;
+  }
+
+  #about {
+    padding-left: 0;
+  }
+
+  .ap-item {
+    margin-bottom: 30px;
+  }
+
+  .ap-body h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .ap-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .ap-body p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .as-seen {
+    padding-bottom: 120px;
+  }
+
+  .as-seen h3 {
+    font-size: 24px;
+  }
+
+  .as-seen h3:before,
+  .as-seen h3:after {
+    width: 40px;
+  }
+
+  .as-seen h3:before {
+    left: -60px;
+  }
+
+  .as-seen h3:after {
+    right: -60px;
+  }
+
+  #architect {
+    padding-right: 25px;
+  }
+
+  #decor {
+    padding-left: 25px;
+  }
+
+  .as-seen-item {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    padding-bottom: 30px;
+  }
+
+  .footer-one,
+  .footer-two,
+  .footer-three {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-one h4 {
+    font-size: 24px;
+  }
+
+  .footer-one h5 {
+    font-size: 17px;
+  }
+
+  .footer-two,
+  .footer-three {
+    padding-top: 20px;
+  }
+
+  .footer-two:before,
+  .footer-three:before {
+    width: 120px;
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%);
+  }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  .home-banner h1 {
+    font-size: 30px;
+    line-height: 48px;
+    padding-left: 20px;
+  }
+
+  .ap-body h3 {
+    font-size: 18px;
+  }
+
+  .ap-body p {
+    font-size: 15px;
+  }
+
+  .as-seen h3:before,
+  .as-seen h3:after {
+    width: 80px;
+  }
+
+  .as-seen h3:before {
+    left: -100px;
+  }
+
+  .as-seen h3:after {
+    right: -100px;
+  }
+
+  #architect {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #decor {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .as-seen-item h4 {
+    font-size: 15px;
+  }
+
+
+
+
+}
