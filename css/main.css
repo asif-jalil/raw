@@ -8,15 +8,14 @@
 
 /* CSS Index
 ------------------------------------
-
 01. Template Default CSS 
 02. header css
-
-
-
-
-
-
+03. home CSS 
+04. feature CSS 
+05. dialogue CSS
+06. about portfolio CSS
+07 as seen CSS 
+08. footer CSS 
 */
 
 /* ====================================================
@@ -176,7 +175,7 @@ header .container {
 }
 
 /* ..................................
- 01. home CSS 
+ 03. home CSS 
 .................................. */
 .home {
   overflow: hidden;
@@ -206,7 +205,7 @@ header .container {
 }
 
 /* ..................................
- 01. feature CSS 
+ 04. feature CSS 
 .................................. */
 .feature {
   padding-top: 150px;
@@ -258,7 +257,7 @@ header .container {
 }
 
 /* ..................................
- 01. dialogue CSS 
+ 05. dialogue CSS 
 .................................. */
 .dialogue {
   padding-top: 150px;
@@ -275,7 +274,7 @@ header .container {
 }
 
 /* ..................................
- 01. about portfolio CSS 
+ 06. about portfolio CSS 
 .................................. */
 .ap {
   padding-bottom: 100px;
@@ -329,7 +328,7 @@ header .container {
 }
 
 /* ..................................
- 01. as seen CSS 
+ 07 as seen CSS 
 .................................. */
 .as-seen {
   padding-bottom: 200px;
@@ -386,7 +385,7 @@ header .container {
 }
 
 /* ..................................
- 01. footer CSS 
+ 08. footer CSS 
 .................................. */
 footer {
   padding-bottom: 60px;
@@ -463,7 +462,7 @@ footer {
 
 
 /* ..................................
- 01. custom animation
+ custom animation
 .................................. */
 @keyframes fadeInUp {
   0% {
